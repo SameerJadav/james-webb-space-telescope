@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JWST</title>
+  </head>
+  <body class="overflow-x-hidden bg-slate-50 dark:bg-black dark:text-white">
+    <header class="w-screen bg-blue-400">
+      <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+        <h1 class="text-3xl font-medium">JWST</h1>
+        <div>
+          <!-- <button
+            id="mobile-open-button "
+            class="text-3xl focus:outline-none sm:hidden"
+          >
+            ☰
+          </button> -->
+          <nav class="space-x-3 text-lg" aria-label="main">
+            <a href="#news" class="hover:text-yellow-300">Latest News</a>
+            <a href="#images" class="hover:text-yellow-300">Images</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="mx-auto max-w-4xl">
+      <section
+        class="flex h-screen flex-col-reverse items-center justify-center p-4 text-center sm:flex-row"
+      >
+        <div class="sm:flex-1">
+          <h2 class="my-4 text-4xl font-medium text-yellow-400">
+            James Webb Space Telescope
+          </h2>
+          <p class="text-xl text-gray-700 dark:text-gray-400">
+            The James Webb Space Telescope will find the first galaxies that
+            formed in the early universe and peer through dusty clouds to see
+            stars forming planetary systems.
+          </p>
+        </div>
+
+        <img
+          src="./img/JWST_spacecraft_model_2.png"
+          alt="JWST"
+          class="w-1/2 sm:flex-1"
+        />
+      </section>
+      <!-- <hr class="mx-auto w-1/2 bg-black dark:bg-slate-50" /> -->
+      <section
+        id="news"
+        class="flex min-h-screen flex-col justify-center p-4 text-start"
+      >
+        <h2 class="mb-6 text-center text-5xl text-red-500">Latest News</h2>
+        <h3 class="mb-4 text-3xl">
+          NASA’s Webb Reveals an Exoplanet Atmosphere as Never Seen Before
+        </h3>
+        <p class="mb-4 text-lg text-gray-700 dark:text-gray-400">
+          WASP-39 b is a planet unlike any in our solar system – a Saturn-sized
+          behemoth that orbits its star closer than Mercury is to our Sun. This
+          exoplanet was one of the first examined by NASA’s James Webb Space
+          Telescope when it began regular science operations. The results have
+          excited the exoplanet science community. Webb’s exquisitely sensitive
+          instruments have provided a profile of WASP-39 b’s atmospheric
+          constituents and identified a plethora of contents, including water,
+          sulfur dioxide, carbon monoxide, sodium and potassium. The findings
+          bode well for the capability of Webb’s instruments to conduct the
+          broad range of investigations of all types of exoplanets, including
+          small, rocky worlds like those in the TRAPPIST-1 system.
+        </p>
+        <h3 class="mb-4 text-3xl">
+          VP Harris, French President Get First Look At Galactic Get Together
+        </h3>
+        <p class="mb-4 text-lg text-gray-700 dark:text-gray-400">
+          A merging galaxy pair cavort in this image captured by the James Webb
+          Space Telescope. This new image of a pair of galaxies, known to
+          astronomers as II ZW 96, was first previewed for Vice President Kamala
+          Harris and French Presid
+        </p>
+        <h3 class="mb-4 text-3xl">
+          NASA’s Webb Catches Fiery Hourglass As New Star Forms
+        </h3>
+        <p class="mb-4 text-lg text-gray-700 dark:text-gray-400">
+          NASA’s James Webb Space Telescope has revealed the once-hidden
+          features of the protostar within the dark cloud L1527, providing
+          insight into the beginnings of a new star. These blazing clouds within
+          the Taurus star-forming region are only visible in infrared light,
+          making it an ideal target for Webb’s Near-Infrared Camera (NIRCam).
+        </p>
+      </section>
+      <section
+        id="images"
+        class="flex min-h-screen flex-col justify-center p-4 text-center"
+      >
+        <h2 class="mb-6 text-5xl text-red-500">Images</h2>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:grid-rows-2">
+          <div class="">
+            <img
+              src="./img/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png"
+              alt="Carina Nebula"
+              class="h-60 w-full object-cover"
+            />
+            <div
+              class="flex h-36 flex-col items-center justify-center bg-gray-700"
+            >
+              <h3 class="p-2 text-4xl">Carina Nebula</h3>
+              <a
+                href="./img/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png"
+                class="text-2xl text-yellow-400 hover:text-yellow-200"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="">
+            <img
+              src="./img/STScI-01G8GZR18A6CBS9TGJS8JE9CM4.png"
+              alt="Carina Nebula"
+              class="h-60 w-full object-cover"
+            />
+            <div
+              class="flex h-36 flex-col items-center justify-center bg-gray-700"
+            >
+              <h3 class="p-2 text-4xl">Southern Ring Nebula</h3>
+              <a
+                href="./img/STScI-01G8GZR18A6CBS9TGJS8JE9CM4.png"
+                class="text-2xl text-yellow-400 hover:text-yellow-200"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="">
+            <img
+              src="./img/STScI-01G8H1NK4W8CJYHF2DDFD1W0DQ.png"
+              alt="Carina Nebula"
+              class="h-60 w-full object-cover"
+            />
+            <div
+              class="flex h-36 flex-col items-center justify-center bg-gray-700"
+            >
+              <h3 class="p-2 text-4xl">Webb's First Deep Field</h3>
+              <a
+                href="./img/STScI-01G8H1NK4W8CJYHF2DDFD1W0DQ.png"
+                class="text-2xl text-yellow-400 hover:text-yellow-200"
+                >Download</a
+              >
+            </div>
+          </div>
+          <div class="">
+            <img
+              src="./img/STScI-01GJ3Q3PRF2VG9DNG7J5YX1N44.jpg"
+              alt="Carina Nebula"
+              class="h-60 w-full object-cover"
+            />
+            <div
+              class="flex h-36 flex-col items-center justify-center bg-gray-700"
+            >
+              <h3 class="p-2 text-4xl">Exoplanet WASP-39 b</h3>
+              <a
+                href="./img/STScI-01GJ3Q3PRF2VG9DNG7J5YX1N44.jpg"
+                class="text-2xl text-yellow-400 hover:text-yellow-200"
+                >Download</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
